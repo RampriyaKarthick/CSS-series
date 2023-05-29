@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+    font-family: 'Montserrat', sans-serif;
+    font-size:55px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p span{
+    font-weight: bold;
+}
+/* font Shorthand
+selector {
+  font: [font-style] [font-variant] [font-weight] [font-size]/[line-height] [font-family];
+}
+p {
+  font: italic small-caps bold 16px/1.2 Arial, sans-serif;
+}
+
+*/
