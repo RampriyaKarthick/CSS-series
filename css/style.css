@@ -50,3 +50,22 @@ p {
     background-color: aquamarine;
     
 }
+
+.k h1{
+    border-left: solid;
+    border-right: solid;
+    border-top: dotted;
+    border-bottom: dotted;
+  /*  border-style: solid; */
+    border-color: blueviolet;
+
+}
+
+.k button{
+    background-color: blue;
+    color:aqua;
+    border-style: dotted;
+    border-color: aquamarine;
+    border-width: 5px;
+    border-radius: 50px;
+}
