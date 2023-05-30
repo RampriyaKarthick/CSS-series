@@ -69,3 +69,63 @@ p {
     border-width: 5px;
     border-radius: 50px;
 }
+
+.box-model button{
+   
+        margin: 100px 10px;
+        padding: 50px 50px;
+    /* p{
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-right:5px;
+        margin-left:5px;
+        margin: 5px 10px 5px 10px;
+    }*/
+}
+
+.testimonial h1{
+    font-weight: bold;
+    color: brown;
+}
+.testimonial{
+    padding:5px;
+    background-color: blueviolet;
+    max-width: auto;
+    height: auto;
+    
+}
+
+.outline{
+    padding:30px;
+    border:2px solid black;
+    background-color: aquamarine;
+    color: brown;
+    outline: 5px dotted red;
+}
+.text-format h1{
+    font-weight: bold;
+    text-shadow: 3px 2px white;
+    color:aqua
+
+}
+.text-format{
+    background-color: rgb(9, 134, 92);
+    color: brown;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;  /* mostly dont use uppercase, can use lowercase or capitalize*/
+    text-indent: 50px;
+    letter-spacing: 3px;
+    line-height: 20px; /*usually line-height will be 1.8px but it is not working here*/
+    word-spacing: 10px;
+
+}
+
+.text-format p:first-of-type {
+    text-decoration: line-through;
+    direction: rtl;
+  }
+
+  .text-format p:nth-of-type(2) {
+    text-decoration: line-through;
+  }
